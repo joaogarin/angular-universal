@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "target": "es5",
+    "module": "commonjs",
+    "removeComments": true,
+    "sourceMap": false,
+    "outDir": "__server_build__"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "typings/tsd.d.ts",
+    "universal.d.ts",
+    "server.ts"
+  ]
+}

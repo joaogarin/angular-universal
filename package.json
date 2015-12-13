@@ -1,0 +1,29 @@
+{
+  "name": "angular2-universal-starter",
+  "version": "1.0.1",
+  "description": "Angular 2 Universal starter kit by @AngularClass",
+  "scripts": {
+    "start": "ts-node server.ts"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@reactivex/rxjs": "5.0.0-alpha.4",
+    "angular2": "2.0.0-alpha.45",
+    "angular2-universal-preview": "0.6.1",
+    "css": "^2.2.1",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "parse5": "^1.5.0",
+    "preboot": "^1.0.0",
+    "reflect-metadata": "0.1.2",
+    "zone.js": "0.5.8"
+  },
+  "devDependencies": {
+    "ts-loader": "^0.5.6",
+    "ts-node": "^0.4.1",
+    "tsd": "^0.6.5",
+    "typescript": "^1.6.2",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
