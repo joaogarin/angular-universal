@@ -6,7 +6,7 @@ import {App} from './src/app';
 
 let app = express();
 
-app.set('port', 5000);
+app.set('port', 80);
 
 // Express View
 app.engine('.ng2.html', ng2engine);
