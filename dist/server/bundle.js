@@ -74,8 +74,8 @@
 	app.use('/', ngApp);
 	app.use('/about', ngApp);
 	app.use('/home', ngApp);
-	app.listen(3000, function () {
-	    console.log('Listen on http://localhost:3000');
+	app.listen(80, function () {
+	    console.log('Listen on http://localhost:80');
 	});
 
 	/* WEBPACK VAR INJECTION */}.call(exports, "src"))
